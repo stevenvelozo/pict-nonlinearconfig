@@ -1,0 +1,26 @@
+{
+	"ProviderIdentifier": "Pict-Router",
+
+	"AutoInitialize": true,
+	"AutoInitializeOrdinal": 0,
+
+	"Routes":
+	[
+		{
+			"path": "/Home",
+			"template": "{~LV:Pict.PictApplication.showView(`NonlinearConfig-MainWorkspace`)~}"
+		},
+		{
+			"path": "/Login",
+			"template": "{~LV:Pict.PictApplication.showView(`NonlinearConfig-Login`)~}"
+		},
+		{
+			"path": "/About",
+			"template": "{~LV:Pict.PictApplication.showView(`NonlinearConfig-About`)~}"
+		},
+		{
+			"path": "/Documentation",
+			"template": "{~LV:Pict.PictApplication.showView(`NonlinearConfig-Documentation`)~}"
+		}
+	]
+}

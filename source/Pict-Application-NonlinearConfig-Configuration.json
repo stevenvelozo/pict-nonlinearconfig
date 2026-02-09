@@ -1,0 +1,15 @@
+{
+	"Name": "Pict Nonlinear Configuration Manager",
+	"Hash": "NonlinearConfig",
+
+	"MainViewportViewIdentifier": "NonlinearConfig-Layout",
+
+	"AutoSolveAfterInitialize": true,
+	"AutoRenderMainViewportViewAfterInitialize": false,
+	"AutoRenderViewsAfterInitialize": false,
+
+	"pict_configuration":
+		{
+			"Product": "NonlinearConfig-Pict-Application"
+		}
+}

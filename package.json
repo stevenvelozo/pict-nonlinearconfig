@@ -1,0 +1,40 @@
+{
+    "name": "pict-nonlinearconfig",
+    "version": "0.0.1",
+    "description": "Pict Nonlinear Configuration Manager",
+    "main": "source/Pict-Application-NonlinearConfig.js",
+    "scripts": {
+        "start": "node source/Pict-Application-NonlinearConfig.js",
+        "build": "npx quack build && npx quack copy",
+        "test": "echo \"Error: no test specified\" && exit 0"
+    },
+    "author": "steven velozo <steven@velozo.com>",
+    "license": "MIT",
+    "dependencies": {
+        "pict": "^1.0.343",
+        "pict-application": "^1.0.28",
+        "pict-router": "^1.0.4",
+        "pict-view": "^1.0.64",
+        "pict-provider": "^1.0.3"
+    },
+    "devDependencies": {
+        "quackage": "^1.0.41"
+    },
+    "copyFilesSettings": {
+        "whenFileExists": "overwrite"
+    },
+    "copyFiles": [
+        {
+            "from": "./html/*",
+            "to": "./dist/"
+        },
+        {
+            "from": "./css/**",
+            "to": "./dist/css/"
+        },
+        {
+            "from": "./node_modules/pict/dist/*",
+            "to": "./dist/js/"
+        }
+    ]
+}
