@@ -1,6 +1,6 @@
 {
     "name": "pict-nonlinearconfig",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Pict Nonlinear Configuration Manager",
     "main": "source/Pict-Application-NonlinearConfig.js",
     "scripts": {
@@ -11,11 +11,11 @@
     "author": "steven velozo <steven@velozo.com>",
     "license": "MIT",
     "dependencies": {
-        "pict": "^1.0.343",
-        "pict-application": "^1.0.28",
-        "pict-router": "^1.0.4",
-        "pict-view": "^1.0.64",
-        "pict-provider": "^1.0.3"
+        "pict": "^1.0.355",
+        "pict-application": "^1.0.33",
+        "pict-router": "^1.0.6",
+        "pict-view": "^1.0.67",
+        "pict-provider": "^1.0.12"
     },
     "devDependencies": {
         "quackage": "^1.0.58"
