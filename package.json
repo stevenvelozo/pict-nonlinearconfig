@@ -13,11 +13,12 @@
     "dependencies": {
         "pict": "^1.0.355",
         "pict-application": "^1.0.33",
+        "pict-provider": "^1.0.12",
         "pict-router": "^1.0.6",
-        "pict-view": "^1.0.67",
-        "pict-provider": "^1.0.12"
+        "pict-view": "^1.0.67"
     },
     "devDependencies": {
+        "pict-docuserve": "^0.1.5",
         "quackage": "^1.1.0"
     },
     "copyFilesSettings": {
