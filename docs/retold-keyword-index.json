@@ -1,7 +1,7 @@
 {
-	"Generated": "2026-05-22T05:42:58.726Z",
+	"Generated": "2026-05-26T18:21:25.266Z",
 	"Mode": "module",
-	"DocumentCount": 1,
+	"DocumentCount": 2,
 	"LunrIndex": {
 		"version": "2.3.9",
 		"fields": [
@@ -15,20 +15,20 @@
 				"title/README.md",
 				[
 					0,
-					3.567,
+					3.791,
 					1,
-					1.823,
+					1.175,
 					2,
-					1.823,
+					1.175,
 					3,
-					1.823
+					1.175
 				]
 			],
 			[
 				"module/README.md",
 				[
 					0,
-					1.783,
+					2.154,
 					4,
 					1.438
 				]
@@ -41,39 +41,90 @@
 				"body/README.md",
 				[
 					0,
-					0.56,
+					0.643,
 					1,
-					0.251,
+					0.172,
 					2,
-					0.251,
+					0.172,
 					3,
-					0.251,
+					0.172,
 					5,
-					0.396,
+					0.892,
 					6,
-					0.288,
+					0.63,
 					7,
-					0.288,
+					0.63,
 					8,
-					0.288,
+					0.63,
 					9,
-					0.288,
+					0.63,
 					10,
-					0.288,
+					0.63,
 					11,
-					0.288,
+					0.63,
 					12,
-					0.288,
+					0.63,
 					13,
-					0.288,
+					0.63,
 					14,
-					0.288,
+					0.63,
 					15,
-					0.288,
+					0.63,
 					16,
-					0.288,
+					0.63,
 					17,
-					0.288
+					0.63
+				]
+			],
+			[
+				"title/_cover.md",
+				[
+					0,
+					4.988,
+					4,
+					3.331
+				]
+			],
+			[
+				"module/_cover.md",
+				[
+					0,
+					2.154,
+					4,
+					1.438
+				]
+			],
+			[
+				"group/_cover.md",
+				[]
+			],
+			[
+				"body/_cover.md",
+				[
+					0,
+					0.636,
+					1,
+					0.148,
+					2,
+					0.197,
+					3,
+					0.148,
+					4,
+					0.319,
+					18,
+					0.77,
+					19,
+					0.77,
+					20,
+					0.77,
+					21,
+					0.77,
+					22,
+					0.77,
+					23,
+					0.77,
+					24,
+					0.77
 				]
 			]
 		],
@@ -136,7 +187,20 @@
 					"module": {},
 					"group": {},
 					"body": {
-						"README.md": {}
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"document",
+				{
+					"_index": 20,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
 					}
 				}
 			],
@@ -149,6 +213,30 @@
 					"group": {},
 					"body": {
 						"README.md": {}
+					}
+				}
+			],
+			[
+				"full",
+				{
+					"_index": 19,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"github",
+				{
+					"_index": 23,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
 					}
 				}
 			],
@@ -198,7 +286,8 @@
 					"module": {},
 					"group": {},
 					"body": {
-						"README.md": {}
+						"README.md": {},
+						"_cover.md": {}
 					}
 				}
 			],
@@ -224,7 +313,8 @@
 					"module": {},
 					"group": {},
 					"body": {
-						"README.md": {}
+						"README.md": {},
+						"_cover.md": {}
 					}
 				}
 			],
@@ -232,12 +322,17 @@
 				"nonlinearconfig",
 				{
 					"_index": 4,
-					"title": {},
+					"title": {
+						"_cover.md": {}
+					},
 					"module": {
-						"README.md": {}
+						"README.md": {},
+						"_cover.md": {}
 					},
 					"group": {},
-					"body": {}
+					"body": {
+						"_cover.md": {}
+					}
 				}
 			],
 			[
@@ -245,14 +340,17 @@
 				{
 					"_index": 0,
 					"title": {
-						"README.md": {}
+						"README.md": {},
+						"_cover.md": {}
 					},
 					"module": {
-						"README.md": {}
+						"README.md": {},
+						"_cover.md": {}
 					},
 					"group": {},
 					"body": {
-						"README.md": {}
+						"README.md": {},
+						"_cover.md": {}
 					}
 				}
 			],
@@ -269,6 +367,30 @@
 				}
 			],
 			[
+				"read",
+				{
+					"_index": 18,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"refer",
+				{
+					"_index": 22,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
 				"rout",
 				{
 					"_index": 13,
@@ -277,6 +399,30 @@
 					"group": {},
 					"body": {
 						"README.md": {}
+					}
+				}
+			],
+			[
+				"start",
+				{
+					"_index": 24,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"usag",
+				{
+					"_index": 21,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
 					}
 				}
 			],
@@ -315,6 +461,12 @@
 			"Module": "pict-nonlinearconfig",
 			"Group": "",
 			"DocPath": "README.md"
+		},
+		"_cover.md": {
+			"Title": "Pict-Nonlinearconfig",
+			"Module": "pict-nonlinearconfig",
+			"Group": "",
+			"DocPath": "_cover.md"
 		}
 	}
 }
