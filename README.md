@@ -1,6 +1,8 @@
 # pict-nonlinearconfig
 
-A Pict application scaffold for building multi-step, branching configuration workflows. It ships a runnable browser application - a layout shell with a top bar, footer, login screen, a workspace dashboard, an about page, and an in-app documentation page - wired together with [pict-application](https://fable-retold.github.io/pict-application/) lifecycle management and [pict-router](https://fable-retold.github.io/pict-router/) hash routing.
+> **[Read the pict-nonlinearconfig Documentation](https://fable-retold.github.io/pict-nonlinearconfig/)**
+
+A Pict application scaffold for building multi-step, branching configuration workflows. It ships a runnable browser application - a layout shell with a top bar, footer, login screen, a workspace dashboard, an about page, and an in-app documentation page - wired together with [pict-application](https://github.com/fable-retold/pict-application) lifecycle management and [pict-router](https://github.com/fable-retold/pict-router) hash routing.
 
 The application is themed around managing configuration that has nonlinear interdependencies: parameters whose values cascade through a graph of dependents rather than living as flat key-value pairs. The shipped views establish the navigation, theming, and structure for that workflow. The dependency-graph engine itself is a model the scaffold is built to host, not a feature implemented in this package today - see [Status](#status).
 
@@ -79,12 +81,12 @@ Full documentation lives in [`docs/`](docs/README.md):
 
 ## Related Modules
 
-- [pict](https://fable-retold.github.io/pict/) - the MVC framework this application is built on
-- [pict-application](https://fable-retold.github.io/pict-application/) - the application lifecycle base class extended here
-- [pict-view](https://fable-retold.github.io/pict-view/) - the view base class every screen extends
-- [pict-router](https://fable-retold.github.io/pict-router/) - the hash router driving navigation
-- [pict-provider](https://fable-retold.github.io/pict-provider/) - the provider base class (the router is registered as a provider)
-- [pict-section-form](https://fable-retold.github.io/pict-section-form/) - declarative, schema-driven forms; a natural fit for building the parameter-entry screens this scaffold is meant to host
+- [pict](https://github.com/fable-retold/pict) - the MVC framework this application is built on
+- [pict-application](https://github.com/fable-retold/pict-application) - the application lifecycle base class extended here
+- [pict-view](https://github.com/fable-retold/pict-view) - the view base class every screen extends
+- [pict-router](https://github.com/fable-retold/pict-router) - the hash router driving navigation
+- [pict-provider](https://github.com/fable-retold/pict-provider) - the provider base class (the router is registered as a provider)
+- [pict-section-form](https://github.com/fable-retold/pict-section-form) - declarative, schema-driven forms; a natural fit for building the parameter-entry screens this scaffold is meant to host
 
 ## License
 
