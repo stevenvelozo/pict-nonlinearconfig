@@ -57,21 +57,8 @@ See [Architecture](architecture.md) for the full lifecycle and the role of each 
 
 The application is a three-zone shell with swappable content:
 
-```
-+------------------------------------------------------+
-|  Top Bar  (brand, nav, login/logout)                 |
-+------------------------------------------------------+
-|                                                      |
-|  Content area  (swapped by the router)               |
-|    - Workspace  (#/Home)                             |
-|    - Login      (#/Login)                            |
-|    - About      (#/About)                            |
-|    - Documentation (#/Documentation)                 |
-|                                                      |
-+------------------------------------------------------+
-|  Bottom Bar  (footer links)                          |
-+------------------------------------------------------+
-```
+<!-- bespoke diagram: edit diagrams/the-views.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-nonlinearconfig/docs -->
+![The views](diagrams/the-views.svg)
 
 | Route | View identifier | What it shows |
 | --- | --- | --- |

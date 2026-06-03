@@ -1,0 +1,6 @@
+graph TD
+    TopBar["Top Bar<br/>(brand, nav, login/logout)"]
+    Content["Content area (swapped by the router)<br/>- Workspace (#/Home)<br/>- Login (#/Login)<br/>- About (#/About)<br/>- Documentation (#/Documentation)"]
+    BottomBar["Bottom Bar<br/>(footer links)"]
+    TopBar --> Content
+    Content --> BottomBar
